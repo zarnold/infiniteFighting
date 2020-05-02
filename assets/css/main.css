@@ -1,24 +1,32 @@
 :root {
-  --main-color: #a3b3a9;
-  --color-1: #c5b88b;
-  --color-2: #dfa784;
-  --accent-1: #9f986a;
-  --accent-2: #84836e;
+  --main-color: #0B4E94;
+  --color-1: #2276A2;
+  --color-2: #6E77AE;
+  --accent-1: #C1A7CA;
+  --accent-2: #FB92B1;
 }
 
 body {
   background-color: var(--main-color);
-  color: var(--accent-2);
+  color: var(--color-1);
   font-family: var(--font-main);
 }
 
+a {
+  color: var(--accent-1);
+}
+
+small {
+  font-size: x-small;
+  font-weight: lighter;
+}
 h1 {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
   font-weight: 300;
   font-size: 64px;
-  color: var(--color-2);
+  color: var(--accent-2);
   letter-spacing: 1px;
 }
 
