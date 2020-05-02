@@ -1,7 +1,7 @@
 <template>
   <div id="container">
     <header>
-      <h1>Header</h1>
+      <h1>Infinite Fighting</h1>
     </header>
     <main>
       <section>
@@ -19,10 +19,8 @@
   </div>
 </template>
 <style scoped>
-
-.container {
+#container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-
 </style>
