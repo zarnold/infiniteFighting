@@ -17,6 +17,10 @@ The image must be  stored in the galleries/monsters folder. Other wiser change i
 
 The deploy command is set up to deploy on gh-pages but feel free to make your own
 
+**DO NOT FORGET TO FILL THE .env FILE**
+
+![ cloudinary info](docs/img/doc_1.png)
+
 ## Build Setup
 
 ```bash
